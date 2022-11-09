@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Oswald:wght@200;300;400;500&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap"); */
+* {
+  box-sizing: border-box;
+}
+p{
+    opacity: 60%;
+}
+.background-layer img {
+    background-size: cover;
+    opacity: 0.2;
+    background-repeat:no-repeat;
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100vh;
+}
+
+header{
+    text-align: center;
+    margin: 70px;
+    padding: 70px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(58, 165, 164, 1) 0%,
+    rgba(122, 229, 228, 1) 100%
+  );
+
+}
+.container {
+    background-color:white ;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+  
+}
+
+.wrapper {
+     
+     width: 100%;
+     padding:1px 14px 31px 50px ;
+}
+
+.abouteme{
+overflow: hidden;
+display: table;
+}
+
+.abouteme img {
+
+  padding-right: 23px;
+  float: left;
+  width: 316px;
+  height: 100px;
+
+}
+header , footer {
+    text-align: center;
+    color: aliceblue;
+
+}
+.head{
+    color: white;
+    text-align: center;
+    margin-top:-60px;
+    margin-bottom: -60px;
+    
+}
+.head h1{
+    font-size:50px ;
+
+}
+
+ h1{
+    font-family:'Oswald';
+    font-size: 60px;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+#p1{
+    font-family: 'Lato';
+    margin-top: -35px;
+    text-align: center;
+}
+
+
+
+.projects{
+   
+    margin-top: 30px;
+    Padding-bottom:30px ;
+    
+    
+}
+
+.cont 
+{
+    display: inline-block;
+}
+
+
+
+.project {
+    display: inline;
+    float: left;
+    padding-right: 10px;
+   
+
+}
+
+
+section{
+    margin: 25px 50px;
+    background-color: white;
+    padding-top:20px ;
+}
+
+
+
+.img1
+{
+    padding-top: 15px;
+    
+}
+
+
+.work{
+    background-color: white;
+    margin-top: 30px;
+    Padding-bottom:30px ;
+}
+
+.stage1 p:first-child{
+    margin: 0;
+    font-family: "lato";
+    font-weight: 300;
+    color: #565656;
+   
+}
+.stage1 p:nth-child(2){
+    margin: 0;
+    font-family: "lato";
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+.stage1 p:nth-child(3){
+    margin: 24px 0 35px 0;
+    font-family: "lato";
+    
+    color:  #565656;
+}
+.stage2 p:first-child{
+    margin: 0;
+    font-family: "lato";
+    font-weight: 300;
+    color: #565656;
+   
+}
+.stage2 p:nth-child(2){
+    margin: 0;
+    font-family: "lato";
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.stage2 p:nth-child(3){
+    margin: 24px 0 35px 0;
+    font-family: "lato";
+    
+    color:  #565656;
+}
+.education{
+    background-color: white;
+    margin-top: 30px;
+    Padding-bottom:30px ;
+}
+.edu1{
+    width: calc(100% /3.33);
+    display: inline-block;
+    vertical-align: middle;
+}
+.edu2{
+    width: calc(100% /3.33);
+    display: inline-block;
+    vertical-align: middle;
+}
+.edu3{
+    overflow: hidden;
+
+    width: calc(100% /3.33);
+    display: inline-block;
+    vertical-align: middle;
+}
+.language{
+    background-color: white;
+    margin-top: 30px;
+    Padding-bottom:30px ;
+}
+
+.place1{
+    display: inline-block;
+    width: calc(100% /3.33);
+    color: #565656;
+    font-weight: 300;
+
+}
+
+.place2 {
+    display: inline-block;
+    padding-right: 10px;
+    width: calc(100% /3.33);
+
+}
+.place2 {
+    display: inline-block;
+    padding-right: 10px;
+    width: calc(100% /3.33);
+
+}
+.place3{
+    display: inline-block;
+    width: calc(100% /3.33);
+
+}
+.social{
+    background-color: white;
+    margin-top: 30px;
+    Padding-bottom:30px ;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+
+}
+.net
+{
+    display: inline;
+    float: left;
+    padding-right: 10px;
+    width: 340px;
+}
+span {
+    font-weight: 700px;
+    color: black;
+    font-weight: bold;
+}
+.contact{
+    background-color: white;
+    margin-top: 30px;
+    Padding-bottom:30px ;
+}
+
+
+.EMAIL a {
+    text-decoration: none;
+    color: none
+    ;
+}
+#emailinput
+{
+    display: block;
+    background-color: #eeeeee;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 2.75rem;
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    font-family: "lato";
+
+}
+
+#textinput{ 
+    display: block;
+    background-color: #eeeeee ;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 2.75rem;
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    font-family: "lato";
+
+} 
+#textAreainput{
+   
+    display: block;
+    background-color: #eeeeee ;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    font-family: "lato";
+
+
+}
+#submitbtn{
+    
+        background-color:rgb(14, 13, 13);
+        color: white;
+        border-radius: 20px;
+        padding: 0.5rem 0.75rem;
+        margin-bottom: 3rem;
+     
+}
+
+
+
